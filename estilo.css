@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: white;
+}
+
+.header {
+  background-color: #8ACF50; /* Verde claro */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav {
+  background-color: #388E3C; /* Verde más oscuro */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.nav li {
+  background-color: #388E3C;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.nav li:hover {
+  background-color: #2E7D32; /* Verde aún más oscuro */
+  cursor: pointer;
+}
+
+.main {
+  background-color: #2196F3; /* Azul */
+  padding: 20px;
+  color: white;
+}
+
+.seccion-principal {
+  background-color: #FFC107; /* Amarillo ámbar */
+  color: #333333;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.articulo-destacado {
+  background-color: #FF5722; /* Naranja fuerte */
+  color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.aside {
+  background-color: #9C27B0; /* Morado */
+  color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+.aside li {
+  background-color: #7B1FA2; /* Morado oscuro */
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.aside li:hover {
+  background-color: #6A1B9A; /* Morado más oscuro */
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #607D8B; /* Gris azulado */
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
